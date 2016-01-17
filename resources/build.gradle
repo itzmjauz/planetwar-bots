@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/java'
+        }
+        output.classesDir = 'out'
+    }
+}
+
+sourceCompatibility = 1.6

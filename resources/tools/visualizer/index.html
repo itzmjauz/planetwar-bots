@@ -1,0 +1,98 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanetWars Visualizer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <style>
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #canvas-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    #canvas-container canvas {
+      background-color: transparent;
+    }
+
+    #control-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    #control-container > div {
+      display: inline-block;
+    }
+
+    body {
+      background: url('https://secure.static.tumblr.com/e4ed8c5935aec8c7802d306c131bc473/utr2jwg/p4On3pxxq/tumblr_static_space_background_blue_dots_73340_2300x1300.jpg') center;
+    }
+
+    .fa {
+      color: #0047AB;
+
+    }
+
+    #canvas-header {
+      position: absolute;
+      width: 100%;
+      margin-top: 20em;
+    }
+
+    .player {
+      font-size: 32px;
+      font-weight: bold;
+      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+
+    #player1 {
+      color: #17df7b;
+      text-align: right;
+    }
+
+    #player2 {
+      color: #df1717;
+      text-align: left;
+    }
+
+    .victor {
+      color: inherit;
+      margin-right: 0.2em;
+      margin-left: 0.2em;
+    }
+
+  </style>
+</head>
+
+<body>
+<script>
+  window.gamedata = <!-- GAMEDATA -->;
+</script>
+<div id="canvas-header" class="row">
+    <div class="col-md-3 player" id="player1"></div>
+    <div class="col-md-3 col-md-offset-6 player" id="player2"></div>
+</div>
+<div id="canvas-container"></div>
+<div id="control-container">
+  <div class="btn-group">
+    <button class="btn btn-default" id="start"><i class="fa fa-fast-backward"></i></button>
+    <button class="btn btn-default" id="prev"><i class="fa fa-step-backward"></i></button>
+    <button class="btn btn-default" id="play"><i class="fa fa-play"></i></button>
+    <button class="btn btn-default" id="next"><i class="fa fa-step-forward"></i></button>
+    <button class="btn btn-default" id="end"><i class="fa fa-fast-forward"></i></button>
+  </div>
+</div>
+<script async="" src="main.dart.js"></script>
+
+
+
+</body></html>
