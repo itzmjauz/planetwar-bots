@@ -1,3 +1,8 @@
+/resources_run2
+*Faulty*
+.DS_STORE
+log.txt
+*.pyc
 *.swp
 *.class
 *.log

@@ -1,0 +1,2626 @@
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/3planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/3planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/3planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/3planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 64.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/3planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/3planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/3planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/3planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/3planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 78.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 38.000000, my ships: 54.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/3planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/3planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/3planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/3planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/3planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 76.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 40.000000, my ships: 54.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/3planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 3 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/4planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/4planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/4planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/4planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 86.000000, my ships: 97.000000 
+Player 2 said: enemy ships: 46.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 97.000000, my ships: 86.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/4planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/4planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/4planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/4planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/4planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 91.000000, my ships: 104.000000 
+Player 2 said: enemy ships: 53.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 104.000000, my ships: 91.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/4planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/4planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/4planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/4planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/4planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 104.000000, my ships: 101.000000 
+Player 2 said: enemy ships: 53.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 101.000000, my ships: 104.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/4planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 4 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/5planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/5planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/5planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/5planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 104.000000, my ships: 88.000000 
+Player 2 said: enemy ships: 53.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 104.000000, my ships: 99.000000 
+Player 2 said: enemy ships: 99.000000, my ships: 104.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/5planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/5planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/5planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/5planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/5planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 105.000000, my ships: 87.000000 
+Player 2 said: enemy ships: 54.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 105.000000, my ships: 98.000000 
+Player 2 said: enemy ships: 98.000000, my ships: 105.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/5planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/5planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/5planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/5planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/5planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 93.000000, my ships: 106.000000 
+Player 2 said: enemy ships: 55.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 106.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 106.000000, my ships: 90.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/5planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 5 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/6planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/6planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/6planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/6planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 102.000000, my ships: 98.000000 
+Player 2 said: enemy ships: 51.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 98.000000, my ships: 102.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 89.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/6planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/6planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/6planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/6planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/6planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 102.000000, my ships: 89.000000 
+Player 2 said: enemy ships: 51.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 98.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 94.000000 
+Player 2 said: enemy ships: 98.000000, my ships: 102.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/6planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/6planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/6planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/6planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/6planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 103.000000, my ships: 102.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 89.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/6planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 6 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/7planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/7planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/7planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/7planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 101.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 94.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 101.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 86.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 90.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/7planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/7planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/7planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/7planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/7planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 103.000000, my ships: 94.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 91.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 97.000000 
+Player 2 said: enemy ships: 97.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 85.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/7planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/7planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/7planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/7planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/7planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 105.000000, my ships: 87.000000 
+Player 2 said: enemy ships: 54.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 100.000000, my ships: 105.000000 
+Player 2 said: enemy ships: 105.000000, my ships: 100.000000 
+Player 2 said: enemy ships: 105.000000, my ships: 91.000000 
+Player 2 said: enemy ships: 105.000000, my ships: 94.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/7planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 7 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/8planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/8planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/8planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/8planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 103.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 81.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 88.000000 
+Player 2 said: enemy ships: 100.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 100.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 99.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/8planets/map1.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/8planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/8planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/8planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/8planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 103.000000, my ships: 100.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 84.000000 
+Player 2 said: enemy ships: 100.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 97.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 86.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/8planets/map2.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs AdaptiveBot.py on maps/8planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs BullyBot.py on maps/8planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs EmptyBot.py on maps/8planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs LookaheadBot.py on maps/8planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: enemy ships: 103.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 52.000000, my ships: 54.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 93.000000 
+Player 2 said: enemy ships: 102.000000, my ships: 103.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 88.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 98.000000 
+Player 2 said: enemy ships: 103.000000, my ships: 102.000000 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Running BerendAlphaBetaBot.py vs RandomBot.py on maps/8planets/map3.txt
+Game[1]: Something went wrong, engine output dump:
+-------------------------
+Engine entering main game loop. Mode serial
+Game state turn 0
+Player 1 said: Amount of planets: 8 
+Player 1 said: Traceback (most recent call last):
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 183, in <module>
+Player 1 said:     main()
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 174, in main
+Player 1 said:     do_turn(pw)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 143, in do_turn
+Player 1 said:     (value, move) = alphaBeta(gameTree, 3, float('-inf'), float('inf'), True)
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 100, in alphaBeta
+Player 1 said:     val = min(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 81, in alphaBeta
+Player 1 said:     val = max(val, alphaBeta(newNode, level - 1, alpha, beta, not maxPlayer))
+Player 1 said:   File "src/python/BerendAlphaBetaBot.py", line 60, in alphaBeta
+Player 1 said:     value = _HeuristicV0.heuristicFunction(tree.getState())
+Player 1 said: NameError: global name '_HeuristicV0' is not defined
+Player 1 timeout: you missed a turn! Consider to make your bot faster, or increase the maxTurnTime.
+Game state turn 1
+Player 2 said: I have 1 planets. (example debug statement, you can remove or change me!) 
+Game state turn 2
+Couldn't write to stdin of player 1
+
+Game took  turns, had        0 timeouts
+Summary:     1620 wins,      105 losses,        0 draws,       90 timeouts

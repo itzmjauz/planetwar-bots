@@ -1,0 +1,11 @@
+# Routine 1
+- Serial mode
+- Small
+- 4000ms
+- cross-compare with V1 on other algorithms
+- Normal data structures (no optimizations)
+- no cutoff on winning moves (inf / - inf values for win/losses)
+- Search depth: 3
++ HeuristicV1: c1 =1
+
+# Routine 2
