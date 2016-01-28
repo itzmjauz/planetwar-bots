@@ -1,0 +1,271 @@
+Running BerendHillBot.py vs AdaptiveBot.py on maps/3planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/3planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/3planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/3planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/3planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/3planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/3planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/3planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/3planets/map2.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/3planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/3planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/3planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/3planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/3planets/map3.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/3planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/4planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/4planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/4planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/4planets/map1.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/4planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 16 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/4planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 60 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/4planets/map2.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 27 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/4planets/map2.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 13 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/4planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/4planets/map2.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 37 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/4planets/map3.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 23 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/4planets/map3.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 17 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/4planets/map3.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 35 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/4planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/4planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/5planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 34 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/5planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 18 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/5planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/5planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 28 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/5planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 26 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/5planets/map2.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 37 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/5planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 16 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/5planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/5planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 34 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/5planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 36 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/5planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/5planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/5planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/5planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/5planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 26 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/6planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/6planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/6planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/6planets/map1.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/6planets/map1.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 41 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/6planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/6planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/6planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/6planets/map2.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/6planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/6planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/6planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/6planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/6planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 12 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/6planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/7planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/7planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/7planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/7planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/7planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/7planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/7planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/7planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/7planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 10 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/7planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/7planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 22 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/7planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 26 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/7planets/map3.txt
+Game[1]: Player 2 Wins!
+Game took Game state turn 57 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/7planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/7planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 16 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/8planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/8planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/8planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/8planets/map1.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/8planets/map1.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/8planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/8planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/8planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/8planets/map2.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/8planets/map2.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 8 turns, had        0 timeouts
+Running BerendHillBot.py vs AdaptiveBot.py on maps/8planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs BullyBot.py on maps/8planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 14 turns, had        0 timeouts
+Running BerendHillBot.py vs EmptyBot.py on maps/8planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Running BerendHillBot.py vs LookaheadBot.py on maps/8planets/map3.txt
+Game[1]: Draw!
+Game took Game state turn 99 turns, had        0 timeouts
+Running BerendHillBot.py vs RandomBot.py on maps/8planets/map3.txt
+Game[1]: Player 1 Wins!
+Game took Game state turn 6 turns, had        0 timeouts
+Summary:       73 wins,        9 losses,        8 draws,        0 timeouts
